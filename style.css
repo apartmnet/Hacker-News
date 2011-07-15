@@ -1,0 +1,75 @@
+html, body {
+	background-color:gainsboro;
+}
+
+body {
+	margin:0;
+	padding:0;
+}
+
+/* tables everywhere!!! */
+body > center {
+	width:320px !important;
+	margin: 0 auto;
+}
+
+/* force remove margins */
+body > center > table[width="85%"] {
+	width:320px !important;
+}
+
+/* hide logo */
+td:nth-child(2) > span.pagetop { 
+	display:none;
+}
+
+/* hide login, sorry guys */
+td:nth-child(3) > span.pagetop { 
+	display:none;
+}
+
+/* make some masthead adjustments */
+td[bgcolor="#ff6600"] td:nth-child(2) {
+	padding-left:2px;
+}
+
+td[bgcolor="#ff6600"] td:nth-child(2):after { 
+	color:black;
+	content:"hacker news, mobile optimized";
+}
+
+/* set a default inner margin for the content */
+table > tbody > tr:nth-child(3) > td > table[border="0"] {
+	padding:.5em;
+}
+
+/* set resonable font sizes */
+.title, .comhead {
+	font-size: 10pt !important;
+}
+
+.subtext {
+	font-size: 8pt !important;
+}
+
+/* hide voting, as this doesn't support login */
+a[id^="up"] {
+	display:none;
+}
+
+/* hide searching, as this is a simple hack that took 3 hours */
+.yclinks, form {
+	display:none;
+}
+
+/* hide irrelevant spaces */
+br ~ center {
+	display:none;
+}
+
+/* display our information */
+cite {
+	text-align:center;
+	display:block;
+	padding-bottom:1em;
+}
