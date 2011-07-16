@@ -10,7 +10,7 @@ $index_url = 'href="' . $base_url . 'index.php?fnid=';
 $info_url = '
 <tr>
 	<td>
-		<cite class="footnote">Mobile hack brought to you by <a href="http://apartm.net">Apartm.net</a></cite>
+		<cite class="footnote">Mobile hack brought to you by <a href="http://apartm.net">Apartm.net</a>, available on <a href="https://github.com/apartmnet/Hacker-News">github</a>.</cite>
 	</td>
 </tr>
 </table></center></body>';
@@ -56,6 +56,19 @@ $inject .= '<script type="application/x-javascript">
     { 
         window.scrollTo(0, 1); 
     } 
+</script>
+<script type="text/javascript"> 
+
+  var _gaq = _gaq || [];
+  _gaq.push([\'_setAccount\', \'UA-11497872-1\']);
+  _gaq.push([\'_trackPageview\']);
+
+  (function() {
+	var ga = document.createElement(\'script\'); ga.type = \'text/javascript\'; ga.async = true;
+	ga.src = (\'https:\' == document.location.protocol ? \'https://ssl\' : \'http://www\') + \'.google-analytics.com/ga.js\';
+	var s = document.getElementsByTagName(\'script\')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
 </script> 
 ';
 
