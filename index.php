@@ -76,6 +76,7 @@ $inject .= '<script type="application/x-javascript">
 $inject .= "</head>";
 $output = str_replace("</head>", $inject, $output);
 $output = str_replace('href="/', 'href="http://news.ycombinator.com/', $output);
+$output = str_replace('href="reply', 'href="http://news.ycombinator.com/reply', $output);
 $output = str_replace('href="vote', 'href="http://news.ycombinator.com/vote', $output);
 $output = str_replace('href="user', 'href="http://news.ycombinator.com/user', $output);
 $output = str_replace('href="item?', $item_url, $output);
