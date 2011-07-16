@@ -5,7 +5,7 @@ header( 'Content-Type: text/html; charset=UTF-8' );
 
 //set up some basic configurations
 $base_url = "http://apartm.net/hackernews/";
-$item_url = 'href="' . $base_url . 'item.php?';
+$item_url = 'href="' . $base_url . 'index.php?';
 $index_url = 'href="' . $base_url . 'index.php?fnid=';
 $info_url = '
 <tr>
