@@ -35,3 +35,6 @@ providing an easier browsing experience was the primary purpose of this hack,
 and at that it excels.
 
 Please feel free to contribute.
+
+Sincerely,
+[apartm.net](http://apartm.net)
