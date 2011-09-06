@@ -13,6 +13,14 @@ The following features exist, to some extent.
 * iOS home screen icon
 
 
+Installation
+------------
+
+1) Deploy files to server.
+2) Edit the $base_url path to point to your installation location.
+3) Visit your installed version.
+
+
 Things That Don't Work
 ----------------------
 
